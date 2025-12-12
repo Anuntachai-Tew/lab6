@@ -2,7 +2,6 @@
 #include <cmath>
 using namespace std;
 
-//---------------------- Function Definitions ----------------------//
 
 double deg2rad(double deg){
     return deg * M_PI / 180.0;
@@ -33,7 +32,6 @@ void showResult(double length, double direction){
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 }
 
-//----------------------------- MAIN -----------------------------//
 
 int main(){
     double l1,l2,a1,a2,xcomp,ycomp,result_vec_length,result_vec_direction;
